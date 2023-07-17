@@ -1,0 +1,46 @@
+/* .App {
+  text-align: center;
+} */
+.heading{
+  margin-left: 50px;
+}
+/*
+.right{
+} */
+.langs{
+  margin: 4px 0px 0px 0px;
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: larger;
+  background-color: rgba(255, 255, 255, 0.672);
+}
+
+.nav{
+  /* width: calc(60vw + 80px); */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgb(67, 112, 113);
+}
+.body{
+  display: flex;
+}
+.btn{
+  height: 40px;
+  width: 55px;
+  margin: 5px calc(100vw - (60vw + 80px)) 0px 50px;
+  background-color:#0ab30a;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor:pointer;
+}
+.btn:hover{
+  background-color: #059005;
+}
+.btn:active{
+  background-color: #42ee42;
+}

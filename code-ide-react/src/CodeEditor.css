@@ -1,0 +1,41 @@
+
+.code-editor{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    font-family: monospace;
+    background-color: rgb(180, 168, 154);
+    width: calc(60vw + 70px);
+    height: 82.8vh;
+    padding-right: 0%;
+
+}
+.code-input{
+    border: 0px;
+    resize: none;
+    background-color: rgb(52, 52, 53);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 0%;
+    height:80vh;
+    width: 59vw;
+}
+:focus-visible{
+    outline: 0px;
+   outline:  -webkit-focus-ring-color auto 0px;
+}
+.line-numbers {
+    counter-reset: line;
+    flex: 0 0 30px;
+    padding: 10px;
+    text-align: right;
+    background-color: #f2f2f2;
+    font-family: monospace;
+    font-size: 20px;
+    overflow-y: scroll;
+    
+}
+.line-numbers::-webkit-scrollbar{
+    display: none;
+  }

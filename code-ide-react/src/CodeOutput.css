@@ -1,0 +1,13 @@
+.outputContainer{
+    background-color: #1d2a35;
+    color: rgb(231, 236, 215);
+    width: calc(100vw - 60vw + 70px);
+    padding: 5px;
+}
+.output{
+    height: 50vh;
+    border-bottom: solid 2px;
+}
+.pre{
+    margin: 0px;
+}
